@@ -114,8 +114,8 @@ body {
 /*=========================HEADER=========================*/
 .nav-list-links {
     color: var(--primary-text-color);
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .active {
@@ -297,8 +297,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 27px;
-    padding-bottom: 27px;
+    height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
     position: absolute;
     width: 100%;
@@ -537,10 +536,12 @@ body {
 }
 .address-list-link {
     color: var(--thirdty-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tell-list-link,
 .email-list-link {
     color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-list-items:not(:last-child) {
     margin-bottom: 9px;
@@ -595,6 +596,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden {
     opacity: 0;
