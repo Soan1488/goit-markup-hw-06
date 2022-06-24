@@ -648,6 +648,7 @@ body {
 }
 .footer-form-button {
   display: flex;
+  justify-content: center;
   align-items: center;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -670,17 +671,13 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--thirdty-text-color);
-  padding-left: 29px;
 }
 .footer-form-button:hover,
 .footer-form-button:focus {
   background-color: #188ce8;
 }
 .footer-form-icon {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 28px;
+  margin-left: 10px;
 }
 /*=========================/FOOTER=========================*/
 /*=========================BACKDROP=========================*/
@@ -766,6 +763,7 @@ body {
   outline: none;
 }
 .contact-form-message {
+  display: block;
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -811,6 +809,7 @@ body {
   margin-bottom: 30px;
 }
 .contact-form-checkbox {
+  justify-content: center;
   display: flex;
   align-items: center;
   cursor: pointer;
